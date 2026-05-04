@@ -1,16 +1,12 @@
-# React + Vite
+# ✨ Atmos — Live Weather Insights
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atmos is a premium, high-fidelity single-page weather application that brings real-time atmospheric data to life with fluid condition-matched animations and a sleek glassmorphic user interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Dynamic Animations Layer**: Unique interactive background animations (Clear, Cloudy, Rain, Snow, Thunderstorm, Mist) mapped directly to current weather conditions.
+- **Advanced State Persistence**: Tracks search history (last 10 searches) and unit preferences (`°C` and `°F`) via LocalStorage.
+- **Geocoding Search**: Real-time autocomplete suggestions powered by the OpenWeatherMap API.
+- **Geolocation Integration**: Instant weather lookup using the browser's native location services.
+- **Glassmorphism Design**: Elegant dark and light UI themes designed with maximum contrast and premium typography.
+- **Performant & Fast**: Built with React 19 and Vite 6 with zero heavy library overhead.
